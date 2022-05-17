@@ -1,0 +1,67 @@
+html{
+    background-image: linear-gradient(140deg, #6f4d36 0%, #402d20 50%, #583d2b 105%, #634632 100%);
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+table{
+    
+    position: relative;
+    top: 20vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    background-image: linear-gradient(140deg, #6f4d36 0%, #402d20 50%, #583d2b 105%, #634632 100%);
+    border-bottom:solid 2px #2e2117 ;
+    border-right:solid 2px #2e2117 ;
+    border-top : 2px solid #90694f;
+    border-left : 2px solid #90694f;
+    box-shadow: #b18568 1px 5px 155px 5px;
+    border-radius: 15px;
+    height: 12em;
+    padding: 15px;
+    font-size: 2em;
+    width: 5em;
+}
+td{
+    border-radius: 5px;
+}
+
+.right-btn{
+    width: 15% ;
+}
+#calc-screen{
+    font-size: 2em;
+    background-color: aliceblue;
+    border-bottom: 2px solid rgb(203, 203, 203);
+    border-right: 2px solid rgb(203, 203, 203);
+    border-top : solid 2px grey;
+    border-left : solid 2px grey;
+    border-radius: 5px;
+    height: 1.4em;
+    width: 4em;
+    overflow:scroll;
+}
+#calc-screen::-webkit-scrollbar{
+    background-color: #2e2117;
+    width: 0px;
+    height: 10px;
+    border-radius: 1em;
+}
+#calc-screen::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1em;
+  }
+  
+
+.calc-btn{
+    border : solid 2px grey;
+    border-top : solid 2px whitesmoke;
+    border-left : solid 2px whitesmoke;
+    background-color: antiquewhite;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.calc-btn:hover{
+    background-color: rgb(238, 217, 187);
+}
