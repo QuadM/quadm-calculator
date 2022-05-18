@@ -31,6 +31,7 @@ table{
     }
     table{
         margin-top: 10px;
+        margin-bottom: 40px;
     }
 }
 @media screen and ( max-height: 812px) {
