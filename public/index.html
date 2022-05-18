@@ -8,46 +8,50 @@
     <link rel="shortcut icon" href="QM-logo.png" type="image/x-icon">
     <title>Lab8-18P2847</title>
 </head>
-<body>
-    <main>
-        <table cellspacing="5">
-            
-            <tr>
-                <td colspan="5"  >
-                    <div id="calc-screen"> <p></p></div>
-                </td>
-                
-            </tr>
-            <tr>
-                <td class="calc-btn num-btn" id="7" value="7">7</td>
-                <td class="calc-btn num-btn" id="8" value="8">8</td>
-                <td class="calc-btn num-btn" id="9" value="9">9</td>
-                <td class="calc-btn right-btn op-btn" id="+" >+</td>
-                <td class="calc-btn right-btn op-btn" id="-">-</td>
-            </tr>
-            <tr>
-                <td class="calc-btn num-btn" id="4" value="4">4</td>
-                <td class="calc-btn num-btn" id="5" value="5">5</td>
-                <td class="calc-btn num-btn" id="6" value="6">6</td>
-                <td class="calc-btn right-btn op-btn" id="*">*</td>
-                <td class="calc-btn right-btn op-btn" id="/">/</td>
-            </tr>
-            <tr>
-                <td class="calc-btn num-btn" id="1" value="1">1</td>
-                <td class="calc-btn num-btn" id="2" value="2">2</td>
-                <td class="calc-btn num-btn" id="3" value="3">3</td>
-                <td class="calc-btn op-btn" rowspan="2" colspan="2" id="=">=</td>
-            </tr>
-            <tr>
-                <td class="calc-btn op-btn" id="c">c</td>
-                <td class="calc-btn num-btn" colspan="2" id="0" value="0">0</td>
-            </tr>
-            
-        </table>
+<body style="margin: 0;">
+    <main style="padding: 0;">
+
         <div style="width:100%;display:flex;flex-direction:column;align-items:center">
-            <div style="position: relative; top:30vh; font:20px sans-serif; color:white;"><img src="QM-logo.png" alt="logo" style="width:5em"></div>
-            <div style="position: relative; top:30vh; font:20px sans-serif; color:white ">Calculator with coffee flavor ☕</div>
-            <footer style="position:relative; top:40vh;"><center>©1999-2022 QM Calculator powered by Quad M Corp.</center> <center>No singel right is reserved :')</center> </footer>
+
+            <table cellspacing="5">
+                
+                <tr>
+                    <td colspan="5"  >
+                        <div id="calc-screen"> <p></p></div>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td class="calc-btn num-btn" id="7" value="7">7</td>
+                    <td class="calc-btn num-btn" id="8" value="8">8</td>
+                    <td class="calc-btn num-btn" id="9" value="9">9</td>
+                    <td class="calc-btn right-btn op-btn" id="+" >+</td>
+                    <td class="calc-btn right-btn op-btn" id="-">-</td>
+                </tr>
+                <tr>
+                    <td class="calc-btn num-btn" id="4" value="4">4</td>
+                    <td class="calc-btn num-btn" id="5" value="5">5</td>
+                    <td class="calc-btn num-btn" id="6" value="6">6</td>
+                    <td class="calc-btn right-btn op-btn" id="*">*</td>
+                    <td class="calc-btn right-btn op-btn" id="/">/</td>
+                </tr>
+                <tr>
+                    <td class="calc-btn num-btn" id="1" value="1">1</td>
+                    <td class="calc-btn num-btn" id="2" value="2">2</td>
+                    <td class="calc-btn num-btn" id="3" value="3">3</td>
+                    <td class="calc-btn op-btn" rowspan="2" colspan="2" id="=">=</td>
+                </tr>
+                <tr>
+                    <td class="calc-btn op-btn" id="c">c</td>
+                    <td class="calc-btn num-btn" colspan="2" id="0" value="0">0</td>
+                </tr>
+                
+            </table>
+   
+       
+            <div style="position: relative; top:30%; font:20px sans-serif; color:white;"><img src="QM-logo.png" alt="logo" style="width:5em"></div>
+            <div style="position: relative; top:30%; font:20px sans-serif; color:white ">Calculator with coffee flavor ☕</div>
+            <footer style="margin-top:3em"><center>©1999-2022 QM Calculator powered by Quad M Corp.</center> <center>No singel right is reserved :')</center> </footer>
         </div>
     </main>
     <script src="script.js"></script>
