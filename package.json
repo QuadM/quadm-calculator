@@ -1,0 +1,21 @@
+{
+  "name": "calculator-lab8-18p2847",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuadM/quadm-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuadM/quadm-calculator/issues"
+  },
+  "homepage": "https://github.com/QuadM/quadm-calculator#readme"
+}
